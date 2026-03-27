@@ -1,0 +1,10 @@
+  <!-- ╔══════════════════════════════════════════════════════╗
+       ║  FACEBOOK SETUP — ACCOUNT OWNER ACTION REQUIRED     ║
+       ║                                                      ║
+       ║  Step 1: Go to https://developers.facebook.com      ║
+       ║  Step 2: Log in with the pub's Facebook account     ║
+       ║  Step 3: Click "Create App" → type: "Consumer"      ║
+       ║  Step 4: Go to Settings > Basic, copy your App ID   ║
+       ║  Step 5: Replace YOUR_APP_ID_HERE on the line below ║
+       ║  Step 6: Add your website domain under "App Domains"║
+       ╚══════════════════════════════════════════════════════╝ -->

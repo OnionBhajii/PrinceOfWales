@@ -1,0 +1,145 @@
+---
+layout: base.njk
+title: Events — The Prince of Wales, Falmouth
+---
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v19.0&appId=YOUR_APP_ID_HERE"></script>
+
+<section class="page-hero events-hero">
+  <div class="container">
+    <p class="section-kicker-menu">What's On</p>
+    <h1>Events &amp; Happenings</h1>
+    <p class="page-intro">
+      Live music, quiz nights, seasonal specials and more —
+      all posted straight to our Facebook page so you're always in the loop.
+    </p>
+  </div>
+</section>
+
+<section class="events-main">
+  <div class="container">
+    <div class="events-layout">
+      <div class="events-left">
+        <div class="gig-header">
+          <h2>Upcoming Live Music</h2>
+          <p>9pm starts (unless stated otherwise)</p>
+        </div>
+        <div class="gig-tabs">
+          <button class="gig-tab active" data-month="march">March</button>
+          <button class="gig-tab" data-month="april">April</button>
+        </div>
+        <div class="gig-lists">
+          <ul class="gig-list active" id="gig-march">
+            <li data-date="2026-03-27"><span class="gig-date">Fri 27th</span> <span class="gig-act">Mighty Howlers</span></li>
+            <li data-date="2026-03-28"><span class="gig-date">Sat 28th</span> <span class="gig-act">The Dereks</span></li>
+          </ul>
+          <ul class="gig-list" id="gig-april">
+            <li data-date="2026-04-03"><span class="gig-date">Fri 3rd</span> <span class="gig-act">Strange Almond</span></li>
+            <li data-date="2026-04-04"><span class="gig-date">Sat 4th</span> <span class="gig-act">Ten 'N' Six</span></li>
+            <li data-date="2026-04-10"><span class="gig-date">Fri 10th</span> <span class="gig-act">Disco/Karaoke</span></li>
+            <li data-date="2026-04-11"><span class="gig-date">Sat 11th</span> <span class="gig-act">Reservoir Stogs</span></li>
+            <li data-date="2026-04-17"><span class="gig-date">Fri 17th</span> <span class="gig-act">Reviresco</span></li>
+            <li data-date="2026-04-18"><span class="gig-date">Sat 18th</span> <span class="gig-act">Nefarians</span></li>
+            <li data-date="2026-04-19"><span class="gig-date">Sun 19th</span> <span class="gig-act">Captain & The Blades <small>(3pm - 5pm)</small></span></li>
+            <li data-date="2026-04-24"><span class="gig-date">Fri 24th</span> <span class="gig-act">The Roosters</span></li>
+            <li data-date="2026-04-25"><span class="gig-date">Sat 25th</span> <span class="gig-act">X-Rays</span></li>
+          </ul>
+        </div>
+      </div>
+      <aside class="feed-sidebar">
+        <div class="sidebar-card">
+          <h3>🎵 Regular Events</h3>
+          <ul class="sidebar-list">
+            <li>
+              <span class="sidebar-dot"></span>
+              <div>
+                <strong>Karaoke Nights</strong>
+                <p>Every Sunday from 8pm. Bring your best voice!</p>
+              </div>
+            </li>
+            <li>
+              <span class="sidebar-dot"></span>
+              <div>
+                <strong>Jam Nights</strong>
+                <p>From 9pm. Upcoming: Mar 26th, Apr 9th & 23rd.</p>
+              </div>
+            </li>
+            <li>
+              <span class="sidebar-dot"></span>
+              <div>
+                <strong>Quiz Nights</strong>
+                <p>From 9pm. Upcoming: Apr 2nd, 16th & 30th.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="sidebar-card">
+          <h3>📍 Find Us</h3>
+          <p class="sidebar-address">
+            The Prince of Wales<br>Falmouth, Cornwall<br>
+            <a href="location.html">Get directions →</a>
+          </p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="events-facebook">
+  <div class="container">
+    <div class="facebook-layout">
+      <div class="facebook-main">
+        <p class="section-kicker">Live from Facebook</p>
+        <h2 class="feed-title">Latest Posts &amp; Events</h2>
+        <p class="feed-subtitle">
+          Our Facebook page is where we announce everything first — gigs,
+          special menus, last-minute offers and more.
+        </p>
+        <div class="fb-plugin-wrap">
+          <div class="fb-page"
+            data-href="https://www.facebook.com/p/The-Prince-of-Wales-Pub-Falmouth-61579140847276/"
+            data-tabs="timeline,events"
+            data-width="500"
+            data-height="800"
+            data-small-header="false"
+            data-adapt-container-width="true"
+            data-hide-cover="false"
+            data-show-facepile="true">
+          </div>
+        </div>
+        <div class="fb-fallback" id="fb-fallback">
+          <div class="fb-fallback-icon">📣</div>
+          <h3>See What's On</h3>
+          <p>Our Facebook page is the best place to keep up with events, live music and last-minute announcements.</p>
+          <a href="https://www.facebook.com/p/The-Prince-of-Wales-Pub-Falmouth-61579140847276/" target="_blank" rel="noopener" class="btn-facebook">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.883v2.258h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/>
+            </svg>
+            Visit Our Facebook Page
+          </a>
+        </div>
+      </div>
+      <aside class="facebook-sidebar">
+        <div class="sidebar-card sidebar-card--cta">
+          <div class="sidebar-cta-icon">🔔</div>
+          <h3>Never Miss an Event</h3>
+          <p>Follow us on Facebook and turn on notifications — we post all events there first.</p>
+          <a href="https://www.facebook.com/p/The-Prince-of-Wales-Pub-Falmouth-61579140847276/" target="_blank" rel="noopener" class="btn-facebook" style="width: 100%; justify-content: center;">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.883v2.258h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/>
+            </svg>
+            Follow Us
+          </a>
+        </div>
+        <div class="sidebar-card">
+          <div class="sidebar-cta-icon" style="font-size: 2rem; margin-bottom: 12px; text-align: center;">🍻</div>
+          <h3 style="text-align: center;">Host Your Own Event</h3>
+          <p style="text-align: center; margin-bottom: 20px;">
+            Looking for a space for a party, meetup, or celebration? Get in touch to reserve an area or discuss private hire.
+          </p>
+          <a href="contact.html" class="button" style="display: block; text-align: center; width: 100%;">Get in Touch</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>

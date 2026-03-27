@@ -1,0 +1,65 @@
+---
+layout: base.njk
+title: Gallery | Prince of Wales
+---
+<main>
+  <section class="page-hero gallery-hero">
+    <div class="container">
+      <p class="section-kicker-menu">Photo Gallery</p>
+      <h1>Inside the Prince</h1>
+      <p class="page-intro">
+        A proper Cornish local — polished taps, warm timber, and the kind of character
+        you can't manufacture. Take a look around.
+      </p>
+    </div>
+  </section>
+
+  <section class="gallery-section">
+    <div class="container">
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item--wide" data-index="0">
+          <img src="{{ '/images/gallery-exterior.jpg' | url }}" alt="Prince of Wales pub exterior, Falmouth" loading="lazy" />
+          <div class="gallery-overlay"><span>The Prince of Wales</span></div>
+        </div>
+        <div class="gallery-item gallery-item--tall" data-index="1">
+          <img src="{{ '/images/gallery-bar-taps.jpg' | url }}" alt="Bar taps at the Prince of Wales" loading="lazy" />
+          <div class="gallery-overlay"><span>On Tap</span></div>
+        </div>
+        <div class="gallery-item" data-index="2">
+          <img src="{{ '/images/gallery-bar-interior.jpg' | url }}" alt="Bar interior" loading="lazy" />
+          <div class="gallery-overlay"><span>Behind the Bar</span></div>
+        </div>
+        <div class="gallery-item" data-index="3">
+          <img src="{{ '/images/gallery-taps-carling.jpg' | url }}" alt="Draught taps" loading="lazy" />
+          <div class="gallery-overlay"><span>The Lineup</span></div>
+        </div>
+        <div class="gallery-item gallery-item--tall" data-index="4">
+          <img src="{{ '/images/gallery-thatchers.jpg' | url }}" alt="Thatchers cider taps" loading="lazy" />
+          <div class="gallery-overlay"><span>Thatchers on Draft</span></div>
+        </div>
+        <div class="gallery-item gallery-item--wide" data-index="5">
+          <img src="{{ '/images/gallery-spirits.jpg' | url }}" alt="Spirits shelf behind the bar" loading="lazy" />
+          <div class="gallery-overlay"><span>The Spirits</span></div>
+        </div>
+        <div class="gallery-item" data-index="6">
+          <img src="{{ '/images/gallery-bar-taps2.jpg' | url }}" alt="Bar taps close up" loading="lazy" />
+          <div class="gallery-overlay"><span>Ready to Pour</span></div>
+        </div>
+        <div class="gallery-item" data-index="7">
+          <img src="{{ '/images/gallery-sign.jpg' | url }}" alt="Free Beer Tomorrow sign" loading="lazy" />
+          <div class="gallery-overlay"><span>Free Beer Tomorrow</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lightbox-close" id="lightbox-close" aria-label="Close">&#x2715;</button>
+  <button class="lightbox-prev" id="lightbox-prev" aria-label="Previous">&#8249;</button>
+  <button class="lightbox-next" id="lightbox-next" aria-label="Next">&#8250;</button>
+  <div class="lightbox-inner">
+    <img id="lightbox-img" src="" alt="" />
+    <p class="lightbox-caption" id="lightbox-caption"></p>
+  </div>
+</div>
